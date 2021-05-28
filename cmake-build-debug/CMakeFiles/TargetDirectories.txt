@@ -1,0 +1,3 @@
+/Users/wangxinhao/CLionProjects/Fight_the_Landlord/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/wangxinhao/CLionProjects/Fight_the_Landlord/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/wangxinhao/CLionProjects/Fight_the_Landlord/cmake-build-debug/CMakeFiles/Fight_the_Landlord.dir
