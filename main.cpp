@@ -1,7 +1,6 @@
 // 斗地主·改（FightTheLandlord2）样例程序
 // 无脑策略
 // 最后修改：2021-05-08，去除了有问题的isArray。
-// 作者：zhouhy
 // 游戏信息：http://www.botzone.org/games#FightTheLandlord2
 
 
