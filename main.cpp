@@ -11,7 +11,7 @@
 #include <cstring> // 注意memset是cstring里的
 #include <algorithm>
 #include<vector>
-//#include "./jsoncpp/json.h" // 在平台上，C++编译时默认包含此库
+#include "./jsoncpp/json.h" // 在平台上，C++编译时默认包含此库
 
 
 using std::set;
@@ -596,6 +596,8 @@ namespace BotzoneIO
                 landlordPosition = request["landlord"].asInt();
                 landlordBid = request["finalbid"].asInt();
                 myPosition = request["pos"].asInt();
+                whoInHistory[0] = (myPosition - 2 + PLAYER_COUNT) % PLAYER_COUNT;
+				whoInHistory[1] = (myPosition - 1 + PLAYER_COUNT) % PLAYER_COUNT;
                 cardRemaining[landlordPosition] += llpublic.size();
                 for (unsigned i = 0; i < llpublic.size(); i++)
                 {
